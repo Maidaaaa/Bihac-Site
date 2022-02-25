@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Bihać </title>
+<style>
+    div.container {
+      display:inline-block;
+    }
+
+  </style>
+  <style>
+      div.row{
+    display: inline-block;
+}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="sub-banner">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+<ul>
+    <li> <a href="index.html">POČETNA</a>  </li>
+    <li> <a href="upoznaj.html">UPOZNAJ BIHAĆ</a>  </li>
+    <li> <a href="tosee.html">ŠTA VIDJETI</a>  </li>
+    <li> <a href="todo.html">ŠTA RADITI</a>  </li>
+    <li> <a href="kontakt.html">KONTAKT</a>  </li>
+</ul>
+
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Kontaktiraj nas </h1>
+</section>
+
+<!---Kontakt-->
+<section class="lokacija">
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d45284.73533682041!2d15.82870104164333!3d44.81553494911017!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4761406e6160d0e9%3A0x3cd88bdb0f9b8206!2zQmloYcSH!5e0!3m2!1sen!2sba!4v1624198845106!5m2!1sen!2sba" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+</section>
+<section class="contact-us"> 
+<div class="row">
+<div class="contact-col">
+<div>
+    <i class="fa fa-home"></i>
+    <span>
+        <h5>Bihać, Bosna i Hercegovina</h5>
+    </span>
+</div>
+</div>
+<div class="contact-col">
+<form action="">
+    <input type="text" placeholder="Unesite svoje ime" required>
+    <input type="email" placeholder="Unesite svoju e-mail adresu" required>
+    <input type="text" placeholder="Predmet" required>
+    <textarea rows="8" placeholder="Poruka" required></textarea>
+    <button type="submit" class="hero-btn red-btn">Pošaljite poruku</button>
+</form>
+</div>
+</div>
+</section>
+
+<!---Footer-->
+<section>
+<div class="footer">
+<h4>Upoznaj Bihać</h4>
+<p>
+    Bihać je prepun znamenitosti, atrakcija i prirodnih ljepota,<br> ali i njegova okolina nudi brojne zanimljivosti koje zaista vrijedi obići.
+</p>
+<div class="icons"> 
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+</div>
+<p>
+    Made by Maida </p>
+</section>
+
+
+
+<!----Js for Menu---->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+
+</body>
+
+</html>
+

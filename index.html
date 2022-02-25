@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Bihać </title>
+<style>
+    div.container {
+      display:inline-block;
+    }
+
+  </style>
+  <style>
+      div.row{
+    display: inline-block;
+}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="banner">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+<ul>
+    <li> <a href="index.html">POČETNA</a>  </li>
+    <li> <a href="upoznaj.html">UPOZNAJ BIHAĆ</a>  </li>
+    <li> <a href="tosee.html">ŠTA VIDJETI</a>  </li>
+    <li> <a href="todo.html">ŠTA RADITI</a>  </li>
+    <li> <a href="kontakt.html">KONTAKT</a>  </li>
+</ul>
+
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<div class="text-box">
+    <h1>Grad Bihać</h1>
+    <p>
+        Bihać je grad i središte istoimene općine u sjeverozapadnom dijelu Bosne i Hercegovine,<br> te glavni grad Unsko-sanskog kantona.
+    </p>
+    <a href="upoznaj.html" class="hero-btn">Posjeti nas za više</a>
+</div>
+
+</section>
+<!--Šta vidjeti-->
+
+<section class="mjesta">
+<h1> Šta vidjeti? </h1>
+<p>Top atrakcije za posjetiti prilikom posjete Bihaću. </p>
+<div class="container">
+    <img src="images/IMG_0075.jpg"height="300"width ="300">
+    <div class="layer">
+        <h3>Džamija Fethija </h3>
+         </div>
+</div>
+<div class="container">
+    <img src="images/Ostrozac-Castle-Bihac.jpeg"height="300"width ="300">
+    <div class="layer">
+        <h3>Ostrožac-Kula </h3>
+         </div>
+</div>
+
+<div class="container">
+    <img src="images/štrbacki-buk.jpg"height="300"width ="300">
+    <div class="layer">
+        <h3>Štrbački buk</h3>
+         </div>
+</div>
+
+</div>
+</section>
+<!--Šta raditi-->
+<section class="radnja">
+    <h1> Šta raditi? </h1>
+    
+<div class="row">
+<img src="images/kayak-safari.jpg"height="300"width ="300">
+<h3>Una Kayak Safari</h3>
+</div>
+<div class="row">
+    <img src="images/rafting.jpg"height="300"width ="300">
+    <h3>Una Kiro Rafting</h3>
+    
+    </div>
+    <div class="row">
+        <img src="images/japodi.jpg"height="300"width ="300">
+        <h3>Japodski otoci</h3>
+    
+        </div>
+</section>
+
+<!---Footer-->
+<section>
+<div class="footer">
+<h4>Upoznaj Bihać</h4>
+<p>
+    Bihać je prepun znamenitosti, atrakcija i prirodnih ljepota,<br> ali i njegova okolina nudi brojne zanimljivosti koje zaista vrijedi obići.
+</p>
+<div class="icons"> 
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+</div>
+<p>
+    Made by Maida </p>
+</section>
+
+
+
+<!----Js for Menu---->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+
+</body>
+
+</html>
+

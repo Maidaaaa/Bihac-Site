@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Bihać </title>
+<style>
+    div.container {
+      display:inline-block;
+    }
+
+  </style>
+  <style>
+      div.row{
+    display: inline-block;
+}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="sub-banner">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+<ul>
+    <li> <a href="index.html">POČETNA</a>  </li>
+    <li> <a href="upoznaj.html">UPOZNAJ BIHAĆ</a>  </li>
+    <li> <a href="tosee.html">ŠTA VIDJETI</a>  </li>
+    <li> <a href="todo.html">ŠTA RADITI</a>  </li>
+    <li> <a href="kontakt.html">KONTAKT</a>  </li>
+</ul>
+
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Šta raditi? </h1>
+
+</section>
+<!---Šta raditi-->
+<section class="todo">
+<div class="row">
+<div class="todo-left">
+
+    <h3>Planinarenje</h3>
+    <p>Svatko svoje planinarske pohode doživljava i proživljava na njemu svojstven način i veseli se mnogim sitnim stvarima koje nekim drugim ljudima možda ne pričinjavaju zadovoljstvo. Nudi  vam se da podijelite i proživite lijepe trenutke na nekim od staza netaknute prirode, planine Plješevice.
+       Start samog planinarenje kreće od podnožja planine Plješevice iz seoskog naselja Zavalje. Opaliti Vrh je centralno i najčešće boravište planinara sa područja Plješevice. Tu će te naići na planinarsku kuću Pahuljica koja ima dosta lijepih mjesta za odmor i relaksaciju poput Vidikovca, jame Bezdan i pećine mrkog medvjeda.
+      </p>
+      <h3>Rafting na Uni</h3>
+      <p>
+        Rafting izleti su pogodni za svakoga i nije potrebno prethodno znanje iz veslanja. Rafting vodići su iskusni kajakaši-skiperi, vrsni poznavaoci divljih voda, a naročito rijeke Une. Uz njih ćete na atraktivan i neobičan način doživjeti ljepotu rijeke i njenih kanjona. Neokrnjena priroda doline rijeke Une i njeni smaragdni brzaci će vas impresionirati i ne propustite priliku da veslate po njoj.
+      </p>
+      <h3>Ribolov na rijeci Uni</h3>
+      <p> Unski ribari već odavno poznaju Unu i njenu ribu. Znaju da je Unska riba nešto posebno kao i Krajina, na prvi pogled; prijazna, topla, fina i draga, a potom ponosna, gorda, inatna i opasna, strancu ne shvatljiva. Unski ribari će vam potvrditi da je unska riba vrlo inteligentna, što ne treba nikog da iznenadi. Ona živi u kristalno čistoj i providnoj vodi te pored podvodnog okoliša može da promatra floru, faunu i sve ostalo što je u bližoj okolini rijeke. Za razliku od ostalih mutnih rijeka horizont vidokruga unske ribe je vrlo velik. Možda je upravo to i presudni faktor povećane opreznosti i inteligencije. Zbog toga Unski ribari primjenjuju posebnu taktiku.</p>
+      
+    </div>
+</div>
+
+</section>
+   
+<!---Footer-->
+<section>
+<div class="footer">
+<h4>Upoznaj Bihać</h4>
+<p>
+    Bihać je prepun znamenitosti, atrakcija i prirodnih ljepota,<br> ali i njegova okolina nudi brojne zanimljivosti koje zaista vrijedi obići.
+</p>
+<div class="icons"> 
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+</div>
+<p>
+    Made by Maida </p>
+</section>
+
+
+
+<!----Js for Menu---->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+
+</body>
+
+</html>
+

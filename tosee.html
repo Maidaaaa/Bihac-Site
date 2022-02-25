@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title> Bihać </title>
+<style>
+    div.container {
+      display:inline-block;
+    }
+
+  </style>
+  <style>
+      div.row{
+    display: inline-block;
+}
+  </style>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+<section id="sub-banner">
+<nav>
+<a href="index.html"><img src="images/logo.png"></a>
+<div class="nav-links" id="navLinks">
+    <i class="fa fa-times" onclick="hideMenu()"></i>
+
+<ul>
+    <li> <a href="index.html">POČETNA</a>  </li>
+    <li> <a href="upoznaj.html">UPOZNAJ BIHAĆ</a>  </li>
+    <li> <a href="tosee.html">ŠTA VIDJETI</a>  </li>
+    <li> <a href="todo.html">ŠTA RADITI</a>  </li>
+    <li> <a href="kontakt.html">KONTAKT</a>  </li>
+</ul>
+
+</div>
+<i class="fa fa-bars" onclick="showMenu()"></i>
+</nav>
+<h1>Šta vidjeti? </h1>
+
+</section>
+<!---Šta vidjeti-->
+<section class="mjesta">
+    <h1> Šta vidjeti? </h1>
+    <p>Top atrakcije za posjetiti prilikom posjete Bihaću. </p>
+    <div class="container">
+        <img src="images/IMG_0075.jpg"height="300"width ="300">
+        <div class="layer">
+            <h3>Džamija Fethija </h3>
+             </div>
+    </div>
+    <div class="container">
+        <img src="images/Ostrozac-Castle-Bihac.jpeg"height="300"width ="300">
+        <div class="layer">
+            <h3>Ostrožac-Kula </h3>
+             </div>
+    </div>
+    
+    <div class="container">
+        <img src="images/štrbacki-buk.jpg"height="300"width ="300">
+        <div class="layer">
+            <h3>Štrbački buk</h3>
+             </div>
+    </div>
+    
+    </div>
+    </section>
+
+    <section class="see-bihac">
+        <div class="row">
+        <div class="see-col">
+            <h3> Džamija Fethija</h3> 
+            <p>
+                Ovo je jedna od najljepših džamija na koje ćete naići, a super je stara - datira iz oko 1266. Džamija je bila bivša crkva, nazvana Crkva Svetog Ante. Izgrađena je u tipičnom gotičkom arhitektonskom stilu; međutim, kada su Osmanlije zauzele grad u 1500-ima, pretvoren je u džamiju.
+                <br> Dizajn još uvijek sadrži mnoštvo starih crkvenih obilježja, ali postoji fascinantan spoj dviju religija kada uđete unutra. Džamija je vrlo centralno smještena, tako da je svakako potrebno posjetiti dok razgledavate središte grada.</p>
+        <h3>Ostrožac-Kula</h3>
+        <p> U slikovitom selu Ostrožac, nedaleko od centra Bihaća, pronaći ćete dvorac Ostrožac. Ovaj dvorac seže u 16. stoljeće, a sagradili su ga Osmanlije.
+            Smješten visoko na brdu, ovo je definitivan trenutak za fotografiju, a ako ga posjetite tokom ljetnih mjeseci, možete uživati u neobičnom koncertu i zabavnoj emisiji uživo, pa pripazite na ljetni kalendar.</p>
+        <h3>Kapetanova Kula</h3>
+        <p>Ako ste ljubitelj istorije i mitologije, tada je Kapetanov toranj ili Kapetanova Kula za vas. Ovo je jedna od najstarijih zgrada u gradu, a oko nje se vrti poznata legenda. Kaže se da je, dok je Bihać bio mlad, u rukama Austro-Ugarske carevine, sama kula bila odgovorna za spas kralja Bele IV., Koji se u kuli skrivao od konjanika koji su imali očigledan zadatak da ga otmu.
+           Kula je danas muzej povijesti Bihaća i otvorena je šest dana u sedmici, a nalazi se na listi nacionalnih spomenika Bosne i Hercegovine.</p>
+        <h3>Štrbački buk</h3>
+        <p>Najpoznatije mjesto u nacionalnom parku je Štrbački buk, prekrasni vodopad koji se spušta u tirkizne vode. Možete pješačiti, brdskim biciklom, šetati ili jednostavno uzeti piknik pored vodopada i uživati u krajoliku. Kroz park prolazi Zelena staza Via Dinarica, tako da možete obuti udobne cipele za šetnju i istražiti.</p>
+        
+    </div>
+        </div>
+        
+        
+        </section>
+<!---Footer-->
+<section>
+<div class="footer">
+<h4>Upoznaj Bihać</h4>
+<p>
+    Bihać je prepun znamenitosti, atrakcija i prirodnih ljepota,<br> ali i njegova okolina nudi brojne zanimljivosti koje zaista vrijedi obići.
+</p>
+<div class="icons"> 
+    <i class="fa fa-facebook"></i>
+    <i class="fa fa-twitter"></i>
+    <i class="fa fa-instagram"></i>
+</div>
+<p>
+    Made by Maida </p>
+</section>
+
+
+
+<!----Js for Menu---->
+<script>
+    var navLinks= document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right="0";
+    }
+    function hideMenu(){
+        navLinks.style.right="-200px";
+    }
+</script>
+
+
+
+</body>
+
+</html>
+
